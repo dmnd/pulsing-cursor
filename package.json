@@ -3,7 +3,7 @@
   "main": "./lib/pulsing-cursor",
   "version": "0.0.0",
   "description": "A tastefully animated cursor",
-  "repository": "https://github.com/atom/pulsing-cursor",
+  "repository": "https://github.com/dmnd/pulsing-cursor",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
