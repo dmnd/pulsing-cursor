@@ -1,0 +1,34 @@
+.pulse-on {
+  transition: opacity 350ms ease-in-out;
+  opacity: 1;
+  border-width: 0 0 0 2px;
+}
+
+.pulse-off {
+  opacity: 0;
+  visibility: visible !important;
+}
+
+// react editor
+.editor.is-focused.react {
+  .cursors {
+    & > .cursor {
+      .pulse-on;
+    }
+
+    &.blink-off > .cursor {
+      .pulse-off;
+    }
+  }
+}
+
+// old-editor
+.editor.is-focused {
+  .cursor {
+    .pulse-on;
+
+    &.blink-off {
+      .pulse-off;
+    }
+  }
+}
