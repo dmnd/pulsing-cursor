@@ -9,25 +9,14 @@
   visibility: visible !important;
 }
 
-// react editor
-.editor.is-focused.react {
+.editor.is-focused,
+:host(.is-focused) {
   .cursors {
     & > .cursor {
       .pulse-on;
     }
 
     &.blink-off > .cursor {
-      .pulse-off;
-    }
-  }
-}
-
-// old-editor
-.editor.is-focused {
-  .cursor {
-    .pulse-on;
-
-    &.blink-off {
       .pulse-off;
     }
   }
