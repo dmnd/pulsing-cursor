@@ -1,4 +1,4 @@
-## 0.2.0 - First Release
+## 0.2.0 - Shadow DOM compatibility
 * Shadow DOM compatibility
 
 
