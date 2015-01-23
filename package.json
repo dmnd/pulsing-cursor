@@ -6,6 +6,6 @@
   "repository": "https://github.com/dmnd/pulsing-cursor",
   "license": "MIT",
   "engines": {
-    "atom": ">0.116.0"
+    "atom": ">0.175.0"
   }
 }
